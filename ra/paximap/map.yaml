@@ -1,0 +1,242 @@
+MapFormat: 7
+
+RequiresMod: ra
+
+Title: Paximap
+
+Description: Map by topaxi
+
+Author: topaxi
+
+Tileset: TEMPERAT
+
+MapSize: 130,130
+
+Bounds: 1,1,128,128
+
+Visibility: Lobby
+
+Type: Conquest
+
+Videos:
+
+Options:
+
+Players:
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Faction: england
+	PlayerReference@Creeps:
+		Name: Creeps
+		NonCombatant: True
+		Faction: england
+	PlayerReference@Multi0:
+		Name: Multi0
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+	PlayerReference@Multi1:
+		Name: Multi1
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+
+Actors:
+	Actor0: mine
+		Owner: Neutral
+		Location: 0,3
+	Actor1: mine
+		Owner: Neutral
+		Location: 3,0
+	Actor2: mine
+		Owner: Neutral
+		Location: 129,126
+	Actor3: mine
+		Owner: Neutral
+		Location: 126,129
+	Actor4: mine
+		Owner: Neutral
+		Location: 127,127
+	Actor5: mine
+		Owner: Neutral
+		Location: 2,2
+	Actor6: gmine
+		Owner: Neutral
+		Location: 49,90
+	Actor7: gmine
+		Owner: Neutral
+		Location: 52,91
+	Actor8: mpspawn
+		Owner: Neutral
+		Location: 8,12
+	Actor9: mpspawn
+		Owner: Neutral
+		Location: 116,122
+	Actor10: mine
+		Owner: Creeps
+		Location: 28,3
+	Actor11: mine
+		Owner: Creeps
+		Location: 127,101
+	Actor12: mine
+		Owner: Multi0
+		Location: 12,92
+	Actor13: mine
+		Owner: Multi0
+		Location: 16,94
+	Actor14: gmine
+		Owner: Multi0
+		Location: 23,89
+	Actor15: oilb
+		Owner: Creeps
+		Location: 15,113
+	Actor16: oilb
+		Owner: Creeps
+		Location: 13,113
+	Actor17: oilb
+		Owner: Creeps
+		Location: 15,115
+	Actor20: fenc
+		Owner: Creeps
+		Location: 14,115
+	Actor18: fenc
+		Owner: Creeps
+		Location: 12,114
+	Actor21: fenc
+		Owner: Creeps
+		Location: 13,115
+	Actor19: fenc
+		Owner: Creeps
+		Location: 12,115
+	Actor22: fenc
+		Owner: Creeps
+		Location: 14,116
+	Actor23: brl3
+		Owner: Creeps
+		Location: 13,116
+	Actor24: barl
+		Owner: Creeps
+		Location: 12,116
+	Actor25: lhus
+		Owner: Creeps
+		Location: 11,78
+	Actor26: mine
+		Owner: Neutral
+		Location: 68,114
+	Actor27: mine
+		Owner: Neutral
+		Location: 67,103
+	Actor28: gmine
+		Owner: Neutral
+		Location: 22,55
+	Actor29: mine
+		Owner: Neutral
+		Location: 22,47
+	Actor30: tc05
+		Owner: Neutral
+		Location: 118,29
+	Actor31: tc04
+		Owner: Neutral
+		Location: 119,31
+	Actor32: tc02
+		Owner: Neutral
+		Location: 119,34
+	Actor33: t17
+		Owner: Neutral
+		Location: 119,33
+	Actor34: tc01
+		Owner: Neutral
+		Location: 121,35
+	Actor35: tc03
+		Owner: Neutral
+		Location: 121,33
+	Actor42: t15
+		Owner: Neutral
+		Location: 127,36
+	Actor41: tc02
+		Owner: Neutral
+		Location: 121,30
+	Actor38: tc02
+		Owner: Neutral
+		Location: 123,35
+	Actor39: t06
+		Owner: Neutral
+		Location: 125,36
+	Actor40: t06
+		Owner: Neutral
+		Location: 126,36
+	Actor43: t17
+		Owner: Neutral
+		Location: 126,35
+	Actor44: tc05
+		Owner: Neutral
+		Location: 124,33
+	Actor45: t11
+		Owner: Neutral
+		Location: 122,31
+	Actor46: t13
+		Owner: Neutral
+		Location: 123,32
+	Actor47: t08
+		Owner: Neutral
+		Location: 127,34
+	Actor48: t07
+		Owner: Neutral
+		Location: 124,31
+	Actor49: t06
+		Owner: Neutral
+		Location: 122,29
+	Actor50: tc01
+		Owner: Neutral
+		Location: 125,29
+	Actor51: tc01
+		Owner: Neutral
+		Location: 127,32
+	Actor52: t14
+		Owner: Neutral
+		Location: 125,30
+	Actor53: tc03
+		Owner: Neutral
+		Location: 128,29
+	Actor54: t16
+		Owner: Neutral
+		Location: 127,30
+	Actor55: t16
+		Owner: Neutral
+		Location: 128,33
+	Actor56: t17
+		Owner: Neutral
+		Location: 124,31
+	Actor57: t17
+		Owner: Neutral
+		Location: 125,31
+	Actor58: t17
+		Owner: Neutral
+		Location: 123,29
+	Actor59: t07
+		Owner: Neutral
+		Location: 128,34
+	Actor60: mine
+		Owner: Neutral
+		Location: 71,18
+	Actor61: mine
+		Owner: Neutral
+		Location: 75,19
+
+Smudges:
+
+Rules:
+
+Sequences:
+
+VoxelSequences:
+
+Weapons:
+
+Voices:
+
+Notifications:
+
+Translations:
