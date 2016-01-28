@@ -266,6 +266,12 @@ Actors:
 	Actor95: t16
 		Owner: Neutral
 		Location: 116,95
+	Actor96: oilb
+		Owner: Neutral
+		Location: 127,116
+	Actor97: oilb
+		Owner: Neutral
+		Location: 21,1
 
 Smudges:
 
