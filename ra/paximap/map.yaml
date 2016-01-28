@@ -272,6 +272,69 @@ Actors:
 	Actor97: oilb
 		Owner: Neutral
 		Location: 21,1
+	Actor98: t03
+		Owner: Neutral
+		Location: 47,48
+	Actor99: t11
+		Owner: Neutral
+		Location: 48,51
+	Actor100: t12
+		Owner: Neutral
+		Location: 48,49
+	Actor101: t15
+		Owner: Neutral
+		Location: 49,59
+	Actor102: t14
+		Owner: Neutral
+		Location: 45,58
+	Actor103: t13
+		Owner: Neutral
+		Location: 45,56
+	Actor104: t17
+		Owner: Neutral
+		Location: 49,57
+	Actor105: tc05
+		Owner: Neutral
+		Location: 52,53
+	Actor106: t16
+		Owner: Neutral
+		Location: 54,51
+	Actor107: tc02
+		Owner: Neutral
+		Location: 56,53
+	Actor108: t17
+		Owner: Neutral
+		Location: 56,54
+	Actor109: t12
+		Owner: Neutral
+		Location: 56,51
+	Actor110: t03
+		Owner: Neutral
+		Location: 48,58
+	Actor111: t01
+		Owner: Neutral
+		Location: 48,47
+	Actor112: t02
+		Owner: Neutral
+		Location: 51,52
+	Actor113: t13
+		Owner: Neutral
+		Location: 58,54
+	Actor114: t11
+		Owner: Neutral
+		Location: 43,56
+	Actor115: t14
+		Owner: Neutral
+		Location: 43,54
+	Actor116: tc02
+		Owner: Neutral
+		Location: 46,46
+	Actor117: t07
+		Owner: Neutral
+		Location: 50,62
+	Actor118: t08
+		Owner: Neutral
+		Location: 49,50
 
 Smudges:
 
