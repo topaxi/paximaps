@@ -233,6 +233,39 @@ Actors:
 	Actor82: mine
 		Owner: Neutral
 		Location: 125,64
+	Actor65: t07
+		Owner: Neutral
+		Location: 24,22
+	Actor66: t08
+		Owner: Neutral
+		Location: 24,24
+	Actor68: t01
+		Owner: Neutral
+		Location: 113,95
+	Actor64: t01
+		Owner: Neutral
+		Location: 25,23
+	Actor67: t06
+		Owner: Neutral
+		Location: 26,23
+	Actor63: lhus
+		Owner: Neutral
+		Location: 40,111
+	Actor69: t02
+		Owner: Neutral
+		Location: 114,94
+	Actor70: t07
+		Owner: Neutral
+		Location: 114,93
+	Actor93: t06
+		Owner: Neutral
+		Location: 113,94
+	Actor94: t08
+		Owner: Neutral
+		Location: 114,96
+	Actor95: t16
+		Owner: Neutral
+		Location: 116,95
 
 Smudges:
 
