@@ -44,28 +44,28 @@ Players:
 		Enemies: Creeps
 
 Actors:
-	Actor0: mine
-		Owner: Neutral
-		Location: 0,3
-	Actor1: mine
+	Actor71: mine
 		Owner: Neutral
 		Location: 3,0
-	Actor2: mine
+	Actor73: mine
+		Owner: Neutral
+		Location: 0,3
+	Actor78: mine
 		Owner: Neutral
 		Location: 129,126
-	Actor3: mine
-		Owner: Neutral
-		Location: 126,129
-	Actor4: mine
+	Actor79: mine
 		Owner: Neutral
 		Location: 127,127
-	Actor5: mine
+	Actor80: mine
+		Owner: Neutral
+		Location: 126,129
+	Actor72: mine
 		Owner: Neutral
 		Location: 2,2
-	Actor6: gmine
+	Actor87: gmine
 		Owner: Neutral
 		Location: 49,90
-	Actor7: gmine
+	Actor88: gmine
 		Owner: Neutral
 		Location: 52,91
 	Actor8: mpspawn
@@ -74,20 +74,20 @@ Actors:
 	Actor9: mpspawn
 		Owner: Neutral
 		Location: 116,122
-	Actor10: mine
-		Owner: Creeps
+	Actor74: mine
+		Owner: Neutral
 		Location: 28,3
-	Actor11: mine
-		Owner: Creeps
+	Actor81: mine
+		Owner: Neutral
 		Location: 127,101
-	Actor12: mine
-		Owner: Multi0
+	Actor90: mine
+		Owner: Neutral
 		Location: 12,92
-	Actor13: mine
-		Owner: Multi0
+	Actor89: mine
+		Owner: Neutral
 		Location: 16,94
-	Actor14: gmine
-		Owner: Multi0
+	Actor91: gmine
+		Owner: Neutral
 		Location: 23,89
 	Actor15: oilb
 		Owner: Creeps
@@ -122,16 +122,16 @@ Actors:
 	Actor25: lhus
 		Owner: Creeps
 		Location: 11,78
-	Actor26: mine
+	Actor77: mine
 		Owner: Neutral
 		Location: 68,114
-	Actor27: mine
+	Actor76: mine
 		Owner: Neutral
 		Location: 67,103
-	Actor28: gmine
+	Actor92: gmine
 		Owner: Neutral
 		Location: 22,55
-	Actor29: mine
+	Actor75: mine
 		Owner: Neutral
 		Location: 22,47
 	Actor30: tc05
@@ -218,12 +218,43 @@ Actors:
 	Actor59: t07
 		Owner: Neutral
 		Location: 128,34
-	Actor60: mine
+	Actor86: mine
 		Owner: Neutral
 		Location: 71,18
-	Actor61: mine
+	Actor85: mine
 		Owner: Neutral
 		Location: 75,19
+	Actor84: mine
+		Owner: Neutral
+		Location: 87,33
+	Actor83: mine
+		Owner: Neutral
+		Location: 122,66
+	Actor82: mine
+		Owner: Neutral
+		Location: 125,64
+	Actor67: gun
+		Owner: Multi0
+		Location: 17,28
+		TurretFacing: 92
+	Actor68: powr
+		Owner: Multi1
+		Location: 125,116
+	Actor69: gun
+		Owner: Multi1
+		Location: 95,102
+		TurretFacing: 92
+	Actor66: gun
+		Owner: Multi0
+		Location: 28,17
+		TurretFacing: 92
+	Actor70: gun
+		Owner: Multi1
+		Location: 105,98
+		TurretFacing: 92
+	Actor65: powr
+		Owner: Multi0
+		Location: 14,3
 
 Smudges:
 
@@ -236,6 +267,8 @@ VoxelSequences:
 Weapons:
 
 Voices:
+
+Music:
 
 Notifications:
 
