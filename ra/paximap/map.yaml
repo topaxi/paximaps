@@ -233,28 +233,6 @@ Actors:
 	Actor82: mine
 		Owner: Neutral
 		Location: 125,64
-	Actor67: gun
-		Owner: Multi0
-		Location: 17,28
-		TurretFacing: 92
-	Actor68: powr
-		Owner: Multi1
-		Location: 125,116
-	Actor69: gun
-		Owner: Multi1
-		Location: 95,102
-		TurretFacing: 92
-	Actor66: gun
-		Owner: Multi0
-		Location: 28,17
-		TurretFacing: 92
-	Actor70: gun
-		Owner: Multi1
-		Location: 105,98
-		TurretFacing: 92
-	Actor65: powr
-		Owner: Multi0
-		Location: 14,3
 
 Smudges:
 
