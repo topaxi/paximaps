@@ -70,7 +70,7 @@ Actors:
 		Location: 52,91
 	Actor8: mpspawn
 		Owner: Neutral
-		Location: 8,12
+		Location: 9,8
 	Actor9: mpspawn
 		Owner: Neutral
 		Location: 116,122
