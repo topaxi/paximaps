@@ -1,0 +1,104 @@
+MapFormat: 7
+
+RequiresMod: ra
+
+Title: smallpaxi
+
+Description:
+
+Author: topaxi
+
+Tileset: TEMPERAT
+
+MapSize: 66,66
+
+Bounds: 1,1,64,64
+
+Visibility: Lobby
+
+Type: Conquest
+
+Videos:
+
+Options:
+
+Players:
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Faction: england
+	PlayerReference@Creeps:
+		Name: Creeps
+		NonCombatant: True
+		Faction: england
+		Enemies: Multi0, Multi1
+	PlayerReference@Multi0:
+		Name: Multi0
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+	PlayerReference@Multi1:
+		Name: Multi1
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+
+Actors:
+	Actor0: gmine
+		Owner: Neutral
+		Location: 9,24
+	Actor1: gmine
+		Owner: Neutral
+		Location: 23,12
+	Actor2: mine
+		Owner: Neutral
+		Location: 61,50
+	Actor3: mine
+		Owner: Neutral
+		Location: 50,62
+	Actor5: mine
+		Owner: Neutral
+		Location: 6,62
+	Actor6: mine
+		Owner: Neutral
+		Location: 60,3
+	Actor4: mine
+		Owner: Neutral
+		Location: 3,61
+	Actor7: mine
+		Owner: Neutral
+		Location: 62,6
+	Actor8: mine
+		Owner: Neutral
+		Location: 3,43
+	Actor9: mine
+		Owner: Neutral
+		Location: 42,3
+	Actor10: mpspawn
+		Owner: Neutral
+		Location: 11,56
+	Actor11: mpspawn
+		Owner: Neutral
+		Location: 55,10
+	Actor12: oilb
+		Owner: Neutral
+		Location: 42,36
+
+Smudges:
+
+Rules:
+
+Sequences:
+
+VoxelSequences:
+
+Weapons:
+
+Voices:
+
+Music:
+
+Notifications:
+
+Translations:
