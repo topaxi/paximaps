@@ -1,0 +1,77 @@
+MapFormat: 7
+
+RequiresMod: ra
+
+Title: Keep Your Enemy Close
+
+Description:
+
+Author: topaxi
+
+Tileset: TEMPERAT
+
+MapSize: 130,130
+
+Bounds: 1,1,128,128
+
+Visibility: Lobby
+
+Type: Conquest
+
+Videos:
+
+Options:
+
+Players:
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Faction: england
+	PlayerReference@Creeps:
+		Name: Creeps
+		NonCombatant: True
+		Faction: england
+		Enemies: Multi0, Multi1
+	PlayerReference@Multi0:
+		Name: Multi0
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+	PlayerReference@Multi1:
+		Name: Multi1
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+
+Actors:
+	Actor2: mine
+		Owner: Neutral
+		Location: 77,57
+	Actor3: mine
+		Owner: Neutral
+		Location: 45,70
+	Actor6: mpspawn
+		Owner: Neutral
+		Location: 53,61
+	Actor7: mpspawn
+		Owner: Neutral
+		Location: 70,65
+
+Smudges:
+
+Rules:
+
+Sequences:
+
+VoxelSequences:
+
+Weapons:
+
+Voices:
+
+Music:
+
+Notifications:
+
+Translations:
