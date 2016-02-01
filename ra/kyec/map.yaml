@@ -87,6 +87,30 @@ Actors:
 	Actor15: mine
 		Owner: Neutral
 		Location: 111,26
+	Actor16: mine
+		Owner: Neutral
+		Location: 22,17
+	Actor17: mine
+		Owner: Neutral
+		Location: 15,22
+	Actor18: mine
+		Owner: Neutral
+		Location: 20,31
+	Actor19: mine
+		Owner: Neutral
+		Location: 105,94
+	Actor20: mine
+		Owner: Neutral
+		Location: 109,106
+	Actor21: mine
+		Owner: Neutral
+		Location: 104,110
+	Actor22: mine
+		Owner: Neutral
+		Location: 52,4
+	Actor23: mine
+		Owner: Neutral
+		Location: 73,119
 
 Smudges:
 
