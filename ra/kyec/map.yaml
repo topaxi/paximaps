@@ -57,6 +57,30 @@ Actors:
 	Actor7: mpspawn
 		Owner: Neutral
 		Location: 70,65
+	Actor4: mine
+		Owner: Neutral
+		Location: 18,58
+	Actor5: mine
+		Owner: Neutral
+		Location: 22,56
+	Actor8: mine
+		Owner: Neutral
+		Location: 106,73
+	Actor9: mine
+		Owner: Neutral
+		Location: 109,70
+	Actor10: gmine
+		Owner: Neutral
+		Location: 32,93
+	Actor11: gmine
+		Owner: Neutral
+		Location: 89,30
+	Actor12: oilb
+		Owner: Neutral
+		Location: 110,7
+	Actor13: oilb
+		Owner: Neutral
+		Location: 19,118
 
 Smudges:
 
