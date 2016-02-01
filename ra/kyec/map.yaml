@@ -81,6 +81,12 @@ Actors:
 	Actor13: oilb
 		Owner: Neutral
 		Location: 19,118
+	Actor14: mine
+		Owner: Neutral
+		Location: 10,99
+	Actor15: mine
+		Owner: Neutral
+		Location: 111,26
 
 Smudges:
 
