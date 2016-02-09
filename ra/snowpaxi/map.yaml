@@ -1,0 +1,185 @@
+MapFormat: 7
+
+RequiresMod: ra
+
+Title: Snowpaxi
+
+Description: Snowy
+
+Author: topaxi
+
+Tileset: SNOW
+
+MapSize: 66,50
+
+Bounds: 1,1,64,48
+
+Visibility: Lobby
+
+Type: Conquest
+
+Videos:
+
+Options:
+
+Players:
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Faction: england
+	PlayerReference@Creeps:
+		Name: Creeps
+		NonCombatant: True
+		Faction: england
+		Enemies: Multi0, Multi1
+	PlayerReference@Multi0:
+		Name: Multi0
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+	PlayerReference@Multi1:
+		Name: Multi1
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+
+Actors:
+	Actor0: oilb
+		Owner: Neutral
+		Location: 55,40
+	Actor1: oilb
+		Owner: Neutral
+		Location: 15,42
+	Actor2: brl3
+		Owner: Neutral
+		Location: 55,42
+	Actor3: brl3
+		Owner: Neutral
+		Location: 14,43
+	Actor4: barl
+		Owner: Neutral
+		Location: 57,41
+	Actor5: barl
+		Owner: Neutral
+		Location: 14,42
+	Actor6: t07
+		Owner: Neutral
+		Location: 57,38
+	Actor7: t06
+		Owner: Neutral
+		Location: 50,41
+	Actor8: t07
+		Owner: Neutral
+		Location: 11,41
+	Actor9: t01
+		Owner: Neutral
+		Location: 20,42
+	Actor10: t07
+		Owner: Neutral
+		Location: 19,43
+	Actor11: t06
+		Owner: Neutral
+		Location: 15,45
+	Actor12: gmine
+		Owner: Neutral
+		Location: 30,19
+	Actor13: gmine
+		Owner: Neutral
+		Location: 36,17
+	Actor14: mine
+		Owner: Neutral
+		Location: 50,23
+	Actor15: mine
+		Owner: Neutral
+		Location: 53,24
+	Actor16: mine
+		Owner: Neutral
+		Location: 10,22
+	Actor17: mine
+		Owner: Neutral
+		Location: 12,24
+	Actor18: mine
+		Owner: Neutral
+		Location: 9,3
+	Actor19: mine
+		Owner: Neutral
+		Location: 55,3
+	Actor20: mpspawn
+		Owner: Neutral
+		Location: 53,10
+	Actor21: mpspawn
+		Owner: Neutral
+		Location: 11,11
+	Actor22: t11
+		Owner: Neutral
+		Location: 42,4
+	Actor23: t14
+		Owner: Neutral
+		Location: 37,6
+	Actor24: t13
+		Owner: Neutral
+		Location: 39,5
+	Actor25: t01
+		Owner: Neutral
+		Location: 41,5
+	Actor26: t01
+		Owner: Neutral
+		Location: 29,7
+	Actor27: t02
+		Owner: Neutral
+		Location: 28,4
+	Actor28: t08
+		Owner: Neutral
+		Location: 26,9
+	Actor29: t06
+		Owner: Neutral
+		Location: 25,5
+	Actor30: t07
+		Owner: Neutral
+		Location: 26,12
+	Actor31: t06
+		Owner: Neutral
+		Location: 39,11
+	Actor32: t07
+		Owner: Neutral
+		Location: 32,23
+	Actor33: t05
+		Owner: Neutral
+		Location: 37,22
+	Actor34: t16
+		Owner: Neutral
+		Location: 32,30
+	Actor35: tc01
+		Owner: Neutral
+		Location: 36,30
+	Actor36: tc04
+		Owner: Neutral
+		Location: 24,28
+	Actor37: t08
+		Owner: Neutral
+		Location: 26,30
+	Actor38: t16
+		Owner: Neutral
+		Location: 22,29
+	Actor39: t06
+		Owner: Neutral
+		Location: 44,26
+
+Smudges:
+
+Rules:
+
+Sequences:
+
+VoxelSequences:
+
+Weapons:
+
+Voices:
+
+Music:
+
+Notifications:
+
+Translations:
