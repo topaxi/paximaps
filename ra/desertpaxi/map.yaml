@@ -1,0 +1,129 @@
+MapFormat: 7
+
+RequiresMod: ra
+
+Title: Desertpaxi
+
+Description:
+
+Author: topaxi
+
+Tileset: DESERT
+
+MapSize: 50,98
+
+Bounds: 1,1,48,96
+
+Visibility: Lobby
+
+Type: Conquest
+
+Videos:
+
+Options:
+
+Players:
+	PlayerReference@Neutral:
+		Name: Neutral
+		OwnsWorld: True
+		NonCombatant: True
+		Faction: england
+	PlayerReference@Creeps:
+		Name: Creeps
+		NonCombatant: True
+		Faction: england
+		Enemies: Multi0, Multi1, Multi2, Multi3
+	PlayerReference@Multi0:
+		Name: Multi0
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+	PlayerReference@Multi1:
+		Name: Multi1
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+	PlayerReference@Multi2:
+		Name: Multi2
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+	PlayerReference@Multi3:
+		Name: Multi3
+		Playable: True
+		Faction: Random
+		Enemies: Creeps
+
+Actors:
+	Actor0: mine
+		Owner: Neutral
+		Location: 3,5
+	Actor1: mine
+		Owner: Neutral
+		Location: 5,3
+	Actor2: mine
+		Owner: Neutral
+		Location: 43,3
+	Actor3: mine
+		Owner: Neutral
+		Location: 46,5
+	Actor4: mine
+		Owner: Neutral
+		Location: 4,91
+	Actor5: mine
+		Owner: Neutral
+		Location: 6,93
+	Actor6: mine
+		Owner: Neutral
+		Location: 43,94
+	Actor7: mine
+		Owner: Neutral
+		Location: 46,92
+	Actor8: mine
+		Owner: Neutral
+		Location: 28,68
+	Actor9: mine
+		Owner: Neutral
+		Location: 19,73
+	Actor10: mine
+		Owner: Neutral
+		Location: 16,24
+	Actor11: mine
+		Owner: Neutral
+		Location: 28,24
+	Actor12: gmine
+		Owner: Neutral
+		Location: 42,43
+	Actor13: gmine
+		Owner: Neutral
+		Location: 4,48
+	Actor14: mpspawn
+		Owner: Neutral
+		Location: 37,85
+	Actor15: mpspawn
+		Owner: Neutral
+		Location: 11,84
+	Actor16: mpspawn
+		Owner: Neutral
+		Location: 10,12
+	Actor17: mpspawn
+		Owner: Neutral
+		Location: 38,11
+
+Smudges:
+
+Rules:
+
+Sequences:
+
+VoxelSequences:
+
+Weapons:
+
+Voices:
+
+Music:
+
+Notifications:
+
+Translations:
